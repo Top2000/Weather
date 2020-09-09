@@ -18,6 +18,5 @@ export class ApiComponent implements OnInit {
   
    resp.subscribe((data)=>this.weatherR=data);
   }
-    
   }
 
